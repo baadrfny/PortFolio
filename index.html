@@ -1,37 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-
-
-
-
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Portfolio de Badr Fenni, développeur full stack et designer UI/UX.">
-
-        <title>Badr Portfolio</title>
-
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" media="print" onload="this.media='all'">
-        <noscript>
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-        </noscript>
-        <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
-        <link rel="icon" href="favicon.ico" type="image/x-icon">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de Badr Fenni, développeur full stack et designer UI/UX.">
+    
+    <title>Badr Portfolio</title>
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    </noscript>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
 
 <body>
-
+    <!-- ==================== Navigation ==================== -->
+    <!-- Off-screen Menu -->
     <div class="off-screen-menu">
         <ul>
-            <li><a href="#page1" id="nav-links">Accueil</a></li>
-            <li><a href="#page2" id="nav-links">A'Propose</a></li>
-            <li><a href="#page3" id="nav-links">Projets</a></li>
-            <li><a href="#page4" id="nav-links">Formation</a></li>
-            <li><a href="#page5" id="nav-links">Contact</a></li>
+            <li><a href="#page1" class="nav-links">Accueil</a></li>
+            <li><a href="#page2" class="nav-links">à Propose</a></li>
+            <li><a href="#page3" class="nav-links">Projets</a></li>
+            <li><a href="#page4" class="nav-links">Formation</a></li>
+            <li><a href="#page5" class="nav-links">Contact</a></li>
         </ul>
     </div>
     
+    <!-- Hamburger Menu -->
     <div class="nav">
 
         <div class="ham-menu">
@@ -39,154 +38,151 @@
             <span></span>
             <span></span>
             <span></span>
+
         </div>
-    
+
     </div>
     
-
-    
-
+    <!-- Header Navigation -->
     <header>
         <div class="nav-container">
-            <a href="#page1" id="nav-links">Accueil</a>
-            <a href="#page2" id="nav-links">A'Propose</a>
-            <a href="#page3" id="nav-links">Projets</a>
-            <a href="#page4" id="nav-links">Formation</a>
-            <a href="#page5" id="nav-links">Contact</a>
+            <a href="#page1" class="nav-links">Accueil</a>
+            <a href="#page2" class="nav-links">A'Propose</a>
+            <a href="#page3" class="nav-links">Projets</a>
+            <a href="#page4" class="nav-links">Formation</a>
+            <a href="#page5" class="nav-links">Contact</a>
         </div>
     </header>
 
+    <!-- ==================== Hero Section ==================== -->
     <section class="hero" id="page1">
-
+        
         <div class="hero-container">
             <img src="img/badr1.avif" fetchpriority="high" alt="badr" id="badr">
-
+            
             <div id="hero-txt">
                 <h1>Badr Fenni</h1>
                 <h2>Développeur Full Stack | Designer UI/UX</h2>
                 <p>Étudiant passionné par le développement web et la création d'expériences utilisateur exceptionnelles</p>
             </div>
             
-
             <div class="heroBtn">
-                <a href=""  > <i class="fa-solid fa-envelope"></i> Email</a>
-                <a href=""> <i class="fa-brands fa-linkedin"></i> LinkedIn</a>
-                <a href=""> <i class="fa-brands fa-github"></i> GitHub</a>
-                <a href=""> <i class="fa-solid fa-file"></i> CV</a>
+                <a href=""><i class="fa-solid fa-envelope"></i> Email</a>
+                <a href="https://www.linkedin.com/in/badr-fenni-2852b7389/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                <a href="https://github.com/baadrfny" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+                <a href=""><i class="fa-solid fa-file"></i> CV</a>
             </div>
 
         </div>
 
 
-    </section>
-    <div  id="page2"></div>
-    <div class="line" ></div>
-
-
-    <h2 id="hPropose"><span id="whiteLettre">A</span> PROPOSE</h2>
-    <section class="A-Propose" >
-        
-            
-
-            <div id="myBox">
-                <h3 id="hThere"><span id="whiteLettre">Hi </span> There!</h3>
-                <h4>Im Badr Fenni</h4>
-                <p>a developer and designer driven by a deep passion for crafting exceptional digital experiences that inspire, engage, and deliver real impact.
-
-With a strong foundation in both creative design and technical development, I love bridging the gap between aesthetics and functionality. My approach blends visual storytelling, user-centered design, and precise programming to create products that don’t just look great — they work beautifully.</p>
-            </div>
-            
-        
-
-        </section>
-
-
-
-        <section class="skills-section">
-
-            <article class="skillSection"> 
-                <h2 id="hSkills"><span id="whiteLettre">MY </span>SKILLS</h2>
-
-                </article>
-            
-                <section class="skills" id="sectionSkills">
-
-                <div class="container">
-
-                    <div class="box-container">
-                        <div class="box"><i id="icons" class="fa-brands fa-html5" style="color: orangered;"></i><h3 id="h3Skl">HTML5</h3></div>
-                        <div class="box"><i id="icons"  class="fa-brands fa-css3-alt" style="color:rgb(59, 59, 215) ;"></i></i><h3 id="h3Skl">CSS3</h3></div>
-                        <div class="box"><i id="icons" class="fa-brands fa-figma" style="color:rgb(183, 0, 255) ;"></i><h3 id="h3Skl">UI/UX</h3></div>
-                    </div>
-                
-                    <div class="box-container">
-                        <div class="box"><i id="icons-js" ><i id="icnJs" class="fa-brands fa-js" style="color:rgb(255, 213, 0) ;"></i></i><h3 id="h3Skl">JAVASCRIPT</h3></div>
-                        <div class="box"><i id="icons" class="fa-brands fa-github" style="color:rgb(255, 0, 0) ;"></i><h3 id="h3Skl">GITHUB/GIT</h3></div>
-                        <div class="box"><i id="icons" class="fa-solid fa-code" style="color:rgb(50, 158, 0) ;"></i><h3 id="h3Skl">Coming soon...</h3></div>
-                    </div>
-                
-
-                
-                </div>
-
-                </section>
-            
-            
-
-                
-        
-                <div class="box-container2">
-                    <div class="TechnicalSkills">
-                        <h2 id="hTec">⚙️ Thecnical <span>Skills</span> </h2>
-
-                        <h3 id="hTechnical">HTML</h3>
-                        <div id="TecLine"></div>
-
-
-                        <h3 id="hTechnical">CSS</h3>
-                        <div id="TecLine"></div>
-                        <h3 id="hTechnical">Java Script</h3>
-                        <div id="TecLine"></div>
-                    </div>
-                    <div class="DesignSkills">
-                        <h2 id="hTec">🎨 Design <span>Skills</span></h2>
-                        <h3 id="hTechnical">Figma</h3>
-                        <div id="TecLine"></div>
-                        <h3 id="hTechnical">Adobe</h3>
-                        <div id="TecLine"></div>
-                </div>
-        </div>
-        
-
-
-        </section>
-    
-    <div id="page3"></div>
+    </section> 
+    <!-- ==================== About Section ==================== -->
+    <div id="page2"></div>
     <div class="line"></div>
+    
+    <h2 id="hPropose"><span id="whiteLettre">A</span> PROPOSE</h2>
+    
+    <section class="A-Propose">
+        <div id="myBox">
+            <h3 id="hThere"><span id="whiteLettre">Hi </span> There!</h3>
+            <h4>Im Badr Fenni</h4>
+            <p>a developer and designer driven by a deep passion for crafting exceptional digital experiences that inspire, engage, and deliver real impact. With a strong foundation in both creative design and technical development, I love bridging the gap between aesthetics and functionality. My approach blends visual storytelling, user-centered design, and precise programming to create products that don't just look great — they work beautifully.</p>
+        </div>
+    </section>
 
+    <!-- ==================== Skills Section ==================== -->
+    <section class="skills-section">
+        <article class="skillSection"> 
+            <h2 id="hSkills"><span id="whiteLettre">MY </span>SKILLS</h2>
+        </article>
+        
+        <section class="skills" id="sectionSkills">
+            <div class="container">
+                <div class="box-container">
+                    <div class="box">
+                        <i id="icons" class="fa-brands fa-html5" style="color: orangered;"></i>
+                        <h3 id="h3Skl">HTML5</h3>
+                    </div>
+                    <div class="box">
+                        <i id="icons" class="fa-brands fa-css3-alt" style="color:rgb(59, 59, 215) ;"></i>
+                        <h3 id="h3Skl">CSS3</h3>
+                    </div>
+                    <div class="box">
+                        <i id="icons" class="fa-brands fa-figma" style="color:rgb(183, 0, 255) ;"></i>
+                        <h3 id="h3Skl">UI/UX</h3>
+                    </div>
+                </div>
+                
+                <div class="box-container">
+                    <div class="box">
+                        <i id="icons-js"><i id="icnJs" class="fa-brands fa-js" style="color:rgb(255, 213, 0) ;"></i></i>
+                        <h3 id="h3Skl">JAVASCRIPT</h3>
+                    </div>
+                    <div class="box">
+                        <i id="icons" class="fa-brands fa-github" style="color:rgb(255, 0, 0) ;"></i>
+                        <h3 id="h3Skl">GITHUB/GIT</h3>
+                    </div>
+                    <div class="box">
+                        <i id="icons" class="fa-solid fa-code" style="color:rgb(50, 158, 0) ;"></i>
+                        <h3 id="h3Skl">Coming soon...</h3>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        
+        <div class="box-container2">
+            <div class="TechnicalSkills">
+                <h2 id="hTec">⚙️ Thecnical <span>Skills</span></h2>
+                
+                <h3 id="hTechnical">HTML</h3>
+                <div id="TecLine"></div>
+                
+                <h3 id="hTechnical">CSS</h3>
+                <div id="TecLine"></div>
+                
+                <h3 id="hTechnical">Java Script</h3>
+                <div id="TecLine"></div>
+            </div>
+            
+            <div class="DesignSkills">
+                <h2 id="hTec">🎨 Design <span>Skills</span></h2>
+                
+                <h3 id="hTechnical">Figma</h3>
+                <div id="TecLine"></div>
+                
+                <h3 id="hTechnical">Adobe</h3>
+                <div id="TecLine"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== Projects Section ==================== -->
+    <div id="page3"></div>
+
+    <div class="line"></div>
 
 
     
     <section class="Projets-section">
         <h2 id="hProjets"><span>MY</span> PROJETS</h2>
+        
         <div class="projetContainer">
             <div id="box1">
                 <img src="img/campus.avif" alt="" id="projetImg">
                 <h2 id="h2proj">CamousConnect</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam sed, eum quasi, vero libero fugiat obcaecati facere dolorum, voluptates architecto pariatur! Voluptas saepe rem asperiores? Voluptatem quae nostrum nisi aspernatur?</p>
-                <a href="" id="projetBtn">Read More</a>
+                <p>CampusConnect is a dynamic school website designed to connect students, teachers, and staff in one digital space. It provides easy access to important academic information, announcements, events, and resources. With a clean, user-friendly interface, CampusConnect simplifies communication, enhances collaboration, and keeps the entire campus community informed and engaged.</p>
+                <a href="https://baadrfny.github.io/CampusConnect/accueil.html" target="_blank" id="projetBtn">Read More</a>
             </div>
+            
             <div id="box1">
                 <img src="img/blog1.avif" alt="" id="projetImg">
                 <h2 id="h2proj">Profile Card</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam sed, eum quasi, vero libero fugiat obcaecati facere dolorum, voluptates architecto pariatur! Voluptas saepe rem asperiores? Voluptatem quae nostrum nisi aspernatur?</p>
-                <a href="" id="projetBtn">Read More</a>
+                <p>A sleek and responsive profile card showcasing personal information in a modern, minimal design. The card typically features a profile image, name, short bio, and social media links, all neatly arranged with smooth hover effects and subtle shadows. Built with clean HTML, CSS, and possibly JavaScript for interactivity, it highlights key personal details in an elegant and compact layout — perfect for portfolios, digital resumes, or social introductions.</p>
+                <a href="https://frolicking-sawine-c45b4a.netlify.app/" target="_blank" id="projetBtn">Read More</a>
             </div>
-
-
             
-
-
             <div id="box1">
                 <img src="img/coming-soon.jpg" alt="" id="projetImg">
                 <h2 id="h2proj">Title</h2>
@@ -198,6 +194,8 @@ With a strong foundation in both creative design and technical development, I lo
 
 
     </section>
+
+    <!-- ==================== Education Section ==================== -->
     <div id="page4"></div>
     <div class="line"></div>
     
@@ -205,120 +203,117 @@ With a strong foundation in both creative design and technical development, I lo
         <h2 id="hFormation"><span>FORMATION</span></h2>
         <h3 id="hParcour">Mon Parcours Éducatif</h3>
         <p id="pParcour">Du baccalauréat au monde du développement - Un voyage de passion et d'évolution continue</p>
-
+        
         <div class="formation-container">
             <div id="for1">
                 <h2 id="formation-date">2025/2024</h2>
                 <h2 id="formationTitle">🎓 Baccalauréat</h2>
                 <p id="pFormation">
-                            J'ai obtenu mon baccalauréat, marquant le début officiel de mon parcours académique
-                            et ma première étape vers la spécialisation dans le domaine de la technologie.
-                        </p>
+                    J'ai obtenu mon baccalauréat, marquant le début officiel de mon parcours académique
+                    et ma première étape vers la spécialisation dans le domaine de la technologie.
+                </p>
             </div>
-
+            
             <div id="line-formation"></div>
-
+            
             <div id="for1">
                 <h2 id="formation-date">2025/2026</h2>
                 <h2 id="formationTitle">🎯 Étudiant à YouCode</h2>
                 <p id="pFormation">
-                            Je me spécialise actuellement en développement web Full-Stack, et j'apprends les dernières technologies dans le domaine de la programmation pour construire des applications web complètes.</p>
+                    Je me spécialise actuellement en développement web Full-Stack, et j'apprends les dernières technologies dans le domaine de la programmation pour construire des applications web complètes.
+                </p>
             </div>
         </div>
     </section>
-        
 
+    <!-- ==================== Contact Section ==================== -->
     <div id="page5"></div>
-
-
+    
 
     <section class="contact-section">
-        
 
-        
-        
+
         <div class="contactContainer">
             <div class="line"></div>
             <h2 id="hContact">CONTACT</h2>
+            
             <div class="contactBox">
                 
-
                 <div id="cntBox1">
                     <div class="line-form"></div>
+                    
                     <div id="forbox">
                         <i class="fa-solid fa-envelope" id="mini-logo"></i>
                         <h3 id="emailH">Email</h3>
-                        
+
                     </div>
                     <p id="emailP">salutbadr47@gmail.com</p>
+                    
                     <div id="forbox">
                         <i class="fa-solid fa-phone" id="mini-logo"></i>
                         <h3 id="emailH">Phone</h3>
                     </div>
                     <p id="emailP">+212 769507807</p>
+                    
                     <div id="forbox">
                         <i class="fa-solid fa-location-dot" id="mini-logo"></i>
                         <h3 id="emailH">Location</h3>
                     </div>
-                    
+
                     <p id="emailP">Morocco, Jerada, Ain-Beni-Mathar</p>
 
                 </div>
-
+                
                 <div class="cntBox2">
                     <div class="boxSend">
                         <h3 id="inputName">YOUR NAME</h3>
-                        <input type="text"placeholder="Your Name" id="input">
+                        <input type="text" placeholder="Your Name" id="input">
+                        
                         <h3 id="inputName">YOUR EMAIL</h3>
                         <input type="email" placeholder="Your Email" id="input">
+                        
                         <h3 id="inputName">YOUR MESSAGE</h3>
                         <input type="text" placeholder="Your Message" id="input">
                     </div>
                     
                     <a href="" id="sendMsg">SEND MESSAGE</a>
-                    
+
                 </div>
-                
 
-
-                
 
             </div>
 
+
         </div>
-        
+
     </section>
-        
 
-
-
-
-        <!-- ===== Footer ===== -->
+    <!-- ==================== Footer ==================== -->
     <footer>
-        
+
         <p id="fotterP">&copy; 2025 Badr Fenni. All rights reserved.</p>
+
     </footer>
 
-
-    <!-- ==================== burger menu  ==================== -->
+    <!-- ==================== JavaScript ==================== -->
     <script>
         const hamMenu = document.querySelector('.ham-menu');
-const offScreenMenu = document.querySelector('.off-screen-menu');
-const menuLinks = offScreenMenu.querySelectorAll('a'); // select all links inside menu
+        const offScreenMenu = document.querySelector('.off-screen-menu');
+        const menuLinks = offScreenMenu.querySelectorAll('a'); // select all links inside menu
 
-hamMenu.addEventListener('click', () => {
-    hamMenu.classList.toggle('active');
-    offScreenMenu.classList.toggle('active');
-});
+        hamMenu.addEventListener('click', () => {
+            hamMenu.classList.toggle('active');
+            offScreenMenu.classList.toggle('active');
+        });
 
-// Close menu when a link is clicked
-menuLinks.forEach(link => {
-    link.addEventListener('click', () => {
-        hamMenu.classList.remove('active');       // remove X effect
-        offScreenMenu.classList.remove('active'); // hide menu
-    });
-});
+        // Close menu when a link is clicked
+        menuLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                hamMenu.classList.remove('active');       // remove X effect
+                offScreenMenu.classList.remove('active'); // hide menu
+            });
+        });
     </script>
-    
+
 </body>
 </html>
